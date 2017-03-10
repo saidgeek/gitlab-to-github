@@ -1,0 +1,28 @@
+{
+  "name": "gitlab-to-github",
+  "version": "0.0.1",
+  "description": "Migrant of Gitlab repos to Github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/saidgeek/gitlab-to-github.git"
+  },
+  "keywords": [
+    "gitlab",
+    "github",
+    "migration"
+  ],
+  "author": "saidgeek",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/saidgeek/gitlab-to-github/issues"
+  },
+  "homepage": "https://github.com/saidgeek/gitlab-to-github#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "request-promise": "^4.1.1"
+  }
+}
