@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/saidgeek/gitlab-to-github#readme",
   "dependencies": {
+    "fs-extra-promise": "^0.4.1",
     "request": "^2.81.0",
-    "request-promise": "^4.1.1",
-    "shelljs": "^0.7.7"
+    "request-promise": "^4.1.1"
   }
 }
