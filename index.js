@@ -52,8 +52,8 @@ fse.ensureDirAsync(basePath)
 
     db.issues.forEach(issue => {
       p = p.then(() => github.createIssue(issue));
-      p = p.then(() => gitlab.notes(projectId, issue.iid)
-        .then(notes => Promise.all(notes.map(n => github.createNotes(projectId, issue.iid, note))))
+      p = p.then(() => gitlab.notes(projectId, issue.id)
+        .then(notes => Promise.all(notes.map(n => github.createNotes(projectId, issue.iid, n))))
         .catch(err => {
           console.log(err)
           return true
