@@ -1,0 +1,14 @@
+{
+	"gitlab": {
+		"url": "http://gitlab.com",
+		"gitUrl": "git@gitlab.com",
+		"token": "sSaEHy3W2cxviReAEYCV"
+	},
+	"github": {
+		"org": "nedmedia",
+		"teamId": "2295064",
+		"username": "saidgeek",
+		"token": "17febf0b5c67c26753ab11c471346a86706e9c44",
+		"private": true
+	}
+}
